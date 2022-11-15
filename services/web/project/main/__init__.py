@@ -1,21 +1,13 @@
-import os
 
-from flask import Blueprint, render_template, jsonify, send_from_directory, request, current_app
-from werkzeug.utils import secure_filename
-from flask_login import login_required, current_user
 
 #from flask_login import login_required, current_user
 
-main = Blueprint('main', __name__)
+from flask import Blueprint
 
+main = Blueprint('main', __name__, static_folder='../static', template_folder='templates')
 
-@main.route("/")
-def index():
-    return jsonify(hello="world")
+from . import views
 
-@main.route("/hello")
-def hello_world():
-    return jsonify(hello="world")
 
 
 # @main.route("/static/<path:filename>")

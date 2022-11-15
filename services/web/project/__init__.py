@@ -3,11 +3,13 @@ import os
 from flask import Flask
 
 from flask_sqlalchemy import SQLAlchemy
-from flask_login import LoginManager 
+from flask_login import LoginManager
+from flask_bootstrap import Bootstrap
 
 
 db = SQLAlchemy()
 
+bootstrap = Bootstrap()
 
 def create_app():
     app = Flask(__name__)
@@ -15,6 +17,7 @@ def create_app():
     app.config.from_object("project.config.Config")
 
     db.init_app(app)
+    bootstrap.init_app(app)
 
     login_manager = LoginManager()
     login_manager.login_view = 'auth.login'

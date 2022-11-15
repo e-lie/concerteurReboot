@@ -6,3 +6,7 @@ __pycache
 .env.prod.db
 .vscode
 .idea
+
+db.sqlite
+venv
+twiliotest.py
