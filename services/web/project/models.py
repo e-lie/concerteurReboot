@@ -26,8 +26,8 @@ class Question(db.Model):
     title = db.Column(db.Unicode(300))
     text = db.Column(db.Unicode(1000))
     current = db.Column(db.Boolean())
-    archive_name = db.Column(db.Unicode(300))
-    audio_path = db.Column(db.String(500))
+    #archive_name = db.Column(db.Unicode(300))
+    base_filename = db.Column(db.String(500))
     trashed = db.Column(db.Boolean(), default=False)
 
     messages = db.relationship('Message', backref='question')
@@ -41,18 +41,18 @@ class Question(db.Model):
     def __repr__(self):
         return '<Question {}: {}>'.format(self.id, self.text)
 
-class Sender(db.Model):
-    __tablename__ = 'senders'
+class Contributor(db.Model):
+    __tablename__ = 'contributors'
     id = db.Column(db.Integer, primary_key=True)
-    numHash = db.Column(db.String(100))
-    messages = db.relationship('Message', backref='sender')
+    phone_number_hash = db.Column(db.String(100))
+    messages = db.relationship('Message', backref='contributor')
 
     def __init__(self, numHash, message):
-        self.numHash = numHash
+        self.phone_number_hash = numHash
         self.messages = [message]
 
     def __repr__(self):
-        return '<Sender {}: {}>'.format(self.id, self.numHash)
+        return '<Contributor {}: {}>'.format(self.id, self.phone_number_hash)
 
 class Message(db.Model):
     __tablename__ = 'messages'
@@ -61,9 +61,9 @@ class Message(db.Model):
     #ajust the 7datetime entry from the clock of the db server. Better because it can be different from the app server's one
     time_created = db.Column(db.DateTime(timezone=True), server_default=func.now())
     question_id = db.Column(db.Integer, db.ForeignKey('questions.id'))
-    sender_id = db.Column(db.Integer, db.ForeignKey('senders.id'))
+    contributor_id = db.Column(db.Integer, db.ForeignKey('contributors.id'))
     text = db.Column(db.Unicode(1000))
-    audio_path = db.Column(db.String(500))
+    base_filename = db.Column(db.String(500))
     trashed = db.Column(db.Boolean(), default=False)
 
     def __init__(self, text, question_id):

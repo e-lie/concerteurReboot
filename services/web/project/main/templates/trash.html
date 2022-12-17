@@ -28,8 +28,8 @@
             <div class="panel-body">
 	<p>{{message.text }}</p>
 	<p>
-	{% if message.audio_path %}
-	<a href="{{ url_for('static', filename='mp3/'+message.audio_path) }}">audio</a> 
+	{% if message.base_filename %}
+	<a href="{{ url_for('static', filename='mp3/'+message.base_filename+'.mp3') }}">audio</a>
 	{% endif %}
 	- <a href="{{ url_for('.untrash_message', message_num=message.id) }}">restaurer</a>
 	</p>

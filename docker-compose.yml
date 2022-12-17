@@ -12,6 +12,8 @@ services:
       - ./.env.dev
     depends_on:
       - db
+    networks:
+      - concerteur
   db:
     image: postgres:13-alpine
     volumes:
@@ -20,6 +22,11 @@ services:
       - POSTGRES_USER=hello_flask
       - POSTGRES_PASSWORD=hello_flask
       - POSTGRES_DB=hello_flask_dev
+    networks:
+      - concerteur
 
 volumes:
   postgres_data:
+
+networks:
+  concerteur:

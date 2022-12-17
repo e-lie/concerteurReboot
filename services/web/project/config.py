@@ -9,6 +9,11 @@ class Config(object):
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     STATIC_FOLDER = f"{os.getenv('APP_FOLDER')}/project/static"
     MEDIA_FOLDER = f"{os.getenv('APP_FOLDER')}/project/media"
+    MP3_FOLDER_NAME = 'mp3'
+    MP3_FOLDER = f'{STATIC_FOLDER}/{MP3_FOLDER_NAME}'
+    ARCHIVE_FOLDER_NAME = 'question_archives'
+    ARCHIVE_FOLDER = f'{STATIC_FOLDER}/{ARCHIVE_FOLDER_NAME}'
+    MESSAGES_ARCHIVE_FILENAME = 'messages.txt'
 
     SECRET_KEY = os.getenv("SECRET_KEY", "9OLWxNfuo83j4K4iuopO")
 
@@ -18,18 +23,7 @@ class Config(object):
     DEBUG = False
     TESTING = False
     CSRF_ENABLED = True
-    SECRET_KEY = 't_ifJk2jhR,jl$0'
-    QUESTION_ARCHIVE_DIR = 'question_archives'
-    MP3_DIR = './app/static/mp3'
-    ZIP_DIR = './app/static/zip'
-    MESSAGES_ARCHIVE_FILENAME = 'messages.txt'
     UPDATE_STATUS = False
     CLIENT_STACK = []
     CLIENT_NUMBER = 1
     QUESTION_ACTIVE = 1
-    
-    CREDENTIALS = [
-                {'loginUser':'EVAL_5349668',
-                'loginPassword':'94wbhtnb'}
-                ]
-    CREDENTIAL_NUM = 0
