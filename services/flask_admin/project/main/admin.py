@@ -3,6 +3,7 @@ import os
 
 from flask import render_template, request, current_app, url_for, redirect
 from flask_login import login_required
+from pydub import AudioSegment
 
 from .. import db
 from ..models import Question, Contributor, Message
@@ -68,22 +69,15 @@ def trash():
     return render_template('trash.html', questions=questions, current_app=current_app)
 
 
-@main.route('/add-message', methods=['GET', 'POST'])
-@login_required
-def add_sms():
-
-    form = AddMessageForm()
-    if request.method == 'GET':
-        return render_template('add_message.html', form=form)
-
-    question = db.session.query(Question).filter(Question.current==True).first()
+def add_message_generic(db, num, text, twilio_sid="added_from_webadmin"):
+    question = db.session.query(Question).filter(Question.current == True).first()
     if not question:
         erreur = "Erreur : pas de question disponible pour ajouter des messages"
-        print( erreur )
+        print(erreur)
         return erreur
 
-    phone_number_hash = str(hash(request.form['num'])) # would be better to install hashlib and use sha1 for this hash
-    message = Message(text=request.form['text'], question_id=question.id)
+    phone_number_hash = str(hash(num))  # would be better to install hashlib and use sha1 for this hash
+    message = Message(text=text, question_id=question.id, twilio_sid=twilio_sid)
 
     contributor = db.session.query(Contributor).filter(Contributor.phone_number_hash == phone_number_hash).first()
     if not contributor:
@@ -93,19 +87,62 @@ def add_sms():
 
     db.session.add(contributor)
     db.session.add(message)
-    db.session.commit() # Add message to DB to get the primary key id used in base filename
+    db.session.commit()  # Add message to DB to get the primary key id used in base filename
 
-    #create a unique filename (id + timestamp + hash of the contributor number)
+    # create a unique filename (id + timestamp + hash of the contributor number)
     message.base_filename = f"{message.id}_{message.time_created.isoformat()}_{contributor.phone_number_hash}"
 
     mp3_sound = amazon_polly_tts(message=message.text, voice_id='Mathieu')
 
     write_mp3_sound(message, mp3_sound, current_app)
 
+
+
     db.session.add(message)
     db.session.commit()
 
     add_message_to_question_archive(message, question, mp3_sound, current_app)
+
+@main.route('/add-message', methods=['GET', 'POST'])
+@login_required
+def add_sms():
+
+    form = AddMessageForm()
+    if request.method == 'GET':
+        return render_template('add_message.html', form=form)
+
+    add_message_generic(db, request.form['num'], request.form['text'])
+
+    # question = db.session.query(Question).filter(Question.current==True).first()
+    # if not question:
+    #     erreur = "Erreur : pas de question disponible pour ajouter des messages"
+    #     print( erreur )
+    #     return erreur
+    #
+    # phone_number_hash = str(hash(request.form['num'])) # would be better to install hashlib and use sha1 for this hash
+    # message = Message(text=request.form['text'], question_id=question.id)
+    #
+    # contributor = db.session.query(Contributor).filter(Contributor.phone_number_hash == phone_number_hash).first()
+    # if not contributor:
+    #     contributor = Contributor(phone_number_hash, message)
+    # else:
+    #     contributor.messages.append(message)
+    #
+    # db.session.add(contributor)
+    # db.session.add(message)
+    # db.session.commit() # Add message to DB to get the primary key id used in base filename
+    #
+    # #create a unique filename (id + timestamp + hash of the contributor number)
+    # message.base_filename = f"{message.id}_{message.time_created.isoformat()}_{contributor.phone_number_hash}"
+    #
+    # mp3_sound = amazon_polly_tts(message=message.text, voice_id='Mathieu')
+    #
+    # write_mp3_sound(message, mp3_sound, current_app)
+    #
+    # db.session.add(message)
+    # db.session.commit()
+    #
+    # add_message_to_question_archive(message, question, mp3_sound, current_app)
 
     return redirect(url_for('.messages'))
 

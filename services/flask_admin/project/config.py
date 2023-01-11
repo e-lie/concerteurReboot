@@ -27,3 +27,22 @@ class Config(object):
     CLIENT_STACK = []
     CLIENT_NUMBER = 1
     QUESTION_ACTIVE = 1
+
+    # # Flask APScheduler
+    # JOBS = [
+    #     {
+    #         'id': 'job1',
+    #         'func': 'project:job1',
+    #         'args': (1, 2),
+    #         'trigger': 'interval',
+    #         'seconds': 10
+    #     },
+    #     {
+    #         'id': 'twilio_sms_poll',
+    #         'func': 'project:main:twilio_sms_poll',
+    #         'args': (),
+    #         'trigger': 'interval',
+    #         'seconds': 10
+    #     }
+    # ]
+    # SCHEDULER_API_ENABLED = True

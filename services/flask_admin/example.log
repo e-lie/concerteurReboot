@@ -1,0 +1,1660 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:root:adding a task
+INFO:werkzeug:172.23.0.1 - - [27/Dec/2022 13:13:48] "GET /task HTTP/1.1" 200 -
+INFO:root:adding a task
+INFO:werkzeug:172.23.0.1 - - [27/Dec/2022 13:13:49] "GET /task HTTP/1.1" 200 -
+INFO:root:adding a task
+INFO:werkzeug:172.23.0.1 - - [27/Dec/2022 13:13:51] "GET /task HTTP/1.1" 200 -
+INFO:root:adding a task
+INFO:werkzeug:172.23.0.1 - - [27/Dec/2022 13:13:52] "GET /task HTTP/1.1" 200 -
+INFO:root:adding a task
+INFO:werkzeug:172.23.0.1 - - [27/Dec/2022 13:13:53] "GET /task HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/poll_sms_background_thread/__init__.py', reloading
+INFO:root:BackgroundTreadFactory
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:werkzeug: * Detected change in '/usr/src/app/project/poll_sms_background_thread/__init__.py', reloading
+INFO:root:BackgroundTreadFactory: return notification
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:NotificationThread started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:werkzeug: * Detected change in '/usr/src/app/project/poll_sms_background_thread/__init__.py', reloading
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:BackgroundTreadFactory: return notification
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:root:BackgroundTreadFactory: return notification
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:werkzeug: * Detected change in '/usr/src/app/project/poll_sms_background_thread/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:run method executed
+INFO:root:blocked ???
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:run method executed
+INFO:root:blocked ???
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:run method executed
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+INFO:root:blocked ???
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:BackgroundTreadFactory: return notification
+INFO:root:run method executed
+INFO:root:blocked ???
+INFO:root:NotificationThread started
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:root:handled -----------------------------
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.23.0.3:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+INFO:werkzeug:172.23.0.1 - - [27/Dec/2022 14:20:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:apscheduler.scheduler:Added job "job1" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:22:02.327243+00:00 (in 9.980063 seconds)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 659-697-036
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:02 UTC)" (scheduled at 2022-12-27 14:22:02.327243+00:00)
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:22:12.327243+00:00 (in 9.999239 seconds)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:12 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:22:22.327243+00:00 (in 9.997354 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:22 UTC)" (scheduled at 2022-12-27 14:22:12.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:22 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:22:32.327243+00:00 (in 9.998459 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:32 UTC)" (scheduled at 2022-12-27 14:22:22.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:32 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:22:42.327243+00:00 (in 9.998580 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:42 UTC)" (scheduled at 2022-12-27 14:22:32.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:42 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:22:52.327243+00:00 (in 9.998788 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:52 UTC)" (scheduled at 2022-12-27 14:22:42.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:22:52 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:23:02.327243+00:00 (in 9.998684 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:02 UTC)" (scheduled at 2022-12-27 14:22:52.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:02 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:23:12.327243+00:00 (in 9.997549 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:12 UTC)" (scheduled at 2022-12-27 14:23:02.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:12 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:23:22.327243+00:00 (in 9.999088 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:22 UTC)" (scheduled at 2022-12-27 14:23:12.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:22 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:23:32.327243+00:00 (in 9.998656 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:32 UTC)" (scheduled at 2022-12-27 14:23:22.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:32 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:23:42.327243+00:00 (in 9.998766 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:42 UTC)" (scheduled at 2022-12-27 14:23:32.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:42 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:23:52.327243+00:00 (in 9.998691 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:52 UTC)" (scheduled at 2022-12-27 14:23:42.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:23:52 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:24:02.327243+00:00 (in 9.998874 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:02 UTC)" (scheduled at 2022-12-27 14:23:52.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:02 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:24:12.327243+00:00 (in 9.998957 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:12 UTC)" (scheduled at 2022-12-27 14:24:02.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:12 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:24:22.327243+00:00 (in 9.998313 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:22 UTC)" (scheduled at 2022-12-27 14:24:12.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:22 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:24:32.327243+00:00 (in 9.998872 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:32 UTC)" (scheduled at 2022-12-27 14:24:22.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:32 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:24:42.327243+00:00 (in 9.998368 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:42 UTC)" (scheduled at 2022-12-27 14:24:32.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:42 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:24:52.327243+00:00 (in 9.998802 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:52 UTC)" (scheduled at 2022-12-27 14:24:42.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:24:52 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:25:02.327243+00:00 (in 9.998172 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:02 UTC)" (scheduled at 2022-12-27 14:24:52.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:02 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:25:12.327243+00:00 (in 9.998890 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:12 UTC)" (scheduled at 2022-12-27 14:25:02.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:12 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:25:22.327243+00:00 (in 9.998606 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:22 UTC)" (scheduled at 2022-12-27 14:25:12.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:22 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:25:32.327243+00:00 (in 9.990136 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:32 UTC)" (scheduled at 2022-12-27 14:25:22.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:32 UTC)" executed successfully
+DEBUG:apscheduler.scheduler:Looking for jobs to run
+DEBUG:apscheduler.scheduler:Next wakeup is due at 2022-12-27 14:25:42.327243+00:00 (in 9.998283 seconds)
+INFO:apscheduler.executors.default:Running job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:42 UTC)" (scheduled at 2022-12-27 14:25:32.327243+00:00)
+INFO:root:apscheduleeeer
+INFO:apscheduler.executors.default:Job "job1 (trigger: interval[0:00:10], next run at: 2022-12-27 14:25:42 UTC)" executed successfully
+INFO:werkzeug: * Detected change in '/usr/src/app/project/__init__.py', reloading
+INFO:werkzeug: * Restarting with stat

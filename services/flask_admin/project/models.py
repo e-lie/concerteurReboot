@@ -65,10 +65,12 @@ class Message(db.Model):
     text = db.Column(db.Unicode(1000))
     base_filename = db.Column(db.String(500))
     trashed = db.Column(db.Boolean(), default=False)
+    twilio_sid = db.Column(db.String(48), default="added_from_webadmin")
 
-    def __init__(self, text, question_id):
+    def __init__(self, text, question_id, twilio_sid):
         self.text = text
         self.question_id = question_id
+        self.twilio_sid = twilio_sid
 
     def __repr__(self):
         return '<Message {}: {}>'.format(self.id, self.text)

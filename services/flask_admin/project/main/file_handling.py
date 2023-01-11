@@ -40,5 +40,5 @@ def add_message_to_question_archive(message, question, mp3_sound, current_app):
 
 
 def rezip_question_archive(question, current_app):
-    question_archive_path = '{}/{}/'.format(current_app.config['ARCHIVE_FOLDER'], question.base_filename)
+    question_archive_path = f'{current_app.config["ARCHIVE_FOLDER"]}/{question.base_filename}'
     shutil.make_archive(question_archive_path, 'zip', current_app.config['ARCHIVE_FOLDER'] + '/' + question.base_filename)
