@@ -26,7 +26,7 @@ def twilio_sms_poll():
         auth_token = os.getenv('TWILIO_TOKEN')
         twilio_client = Client(account_sid, auth_token)
 
-        for sms in twilio_client.messages.list(date_sent_after=datetime.utcnow().replace(tzinfo=pytz.UTC)-timedelta(minutes=20)): # fetch SMS sent in the last 10 minutes
+        for sms in twilio_client.messages.list(date_sent_after=datetime.utcnow().replace(tzinfo=pytz.UTC)-timedelta(minutes=20)): # fetch SMS sent in the last 20 minutes
             #help(sms)
             if not sms.direction == "inbound":
                 continue

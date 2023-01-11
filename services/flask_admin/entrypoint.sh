@@ -13,6 +13,4 @@ fi
 
 /usr/bin/python3 manage.py create_db
 
-echo "create db !"
-
 exec "$@"
