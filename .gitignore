@@ -13,4 +13,6 @@ venv
 *.mp3
 *.wav
 *.zip
-*.txt
+
+static/**
+media/**

@@ -1,0 +1,13 @@
+Flask
+Flask-Login
+Flask-Bootstrap
+Flask-WTF
+Flask-SQLAlchemy
+Flask-APScheduler
+gunicorn
+psycopg2-binary
+parse
+boto3
+twilio
+pydub
+
