@@ -11,6 +11,8 @@ then
     echo "PostgreSQL started"
 fi
 
-python manage.py create_db
+/usr/bin/python3 manage.py create_db
+
+echo "create db !"
 
 exec "$@"
