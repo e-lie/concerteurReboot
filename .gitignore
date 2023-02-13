@@ -9,6 +9,7 @@ __pycache
 
 db.sqlite
 venv
+twiliotest.py
 
 *.mp3
 *.wav
@@ -16,3 +17,5 @@ venv
 
 static/**
 media/**
+*.txt
+*.log
