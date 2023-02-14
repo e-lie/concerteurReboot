@@ -9,6 +9,7 @@ from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 from flask_apscheduler import APScheduler
 
+from gpiozero import Button
 
 db = SQLAlchemy()
 bootstrap = Bootstrap()
@@ -22,8 +23,11 @@ def create_app():
     db.init_app(app)
     bootstrap.init_app(app)
 
+    app.gpio_button = Button(2)
+
     scheduler.init_app(app)
     from .main import twilio_sms_poll_job
+    from .main import gpio_player_job
     scheduler.start()
 
     login_manager = LoginManager()

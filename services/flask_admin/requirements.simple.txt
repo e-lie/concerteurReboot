@@ -11,4 +11,5 @@ boto3
 twilio
 pydub
 playsound
+gpiozero
 
