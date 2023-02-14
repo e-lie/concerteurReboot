@@ -7,7 +7,6 @@ from flask import Blueprint
 main = Blueprint('main', __name__, static_folder='../static', template_folder='templates')
 
 from . import admin
-from . import sync_mp3_api
 
 def twilio_sms_poll():
     from twilio.rest import Client
