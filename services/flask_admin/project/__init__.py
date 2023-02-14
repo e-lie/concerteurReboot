@@ -9,9 +9,6 @@ from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 from flask_apscheduler import APScheduler
 
-# from .poll_sms_background_thread import BackgroundThreadFactory, TASKS_QUEUE
-
-#logging.basicConfig(filename='flask_admin.log', encoding='utf-8', level=logging.INFO)
 
 db = SQLAlchemy()
 bootstrap = Bootstrap()
@@ -47,7 +44,6 @@ def create_app():
     # blueprint for non-auth parts of app
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
-
 
     # # Background thread test
     # @app.route('/task', methods=['POST', "GET"])
