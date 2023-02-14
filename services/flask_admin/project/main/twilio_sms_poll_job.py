@@ -1,6 +1,8 @@
 import os
 from datetime import datetime, timedelta
 
+from playsound import playsound
+
 from .. import scheduler
 from .. import db
 from ..models import Question, Message
@@ -17,6 +19,8 @@ import pytz
     start_date="2000-01-01 12:19:00",
 )
 def twilio_sms_poll():
+
+    
     with scheduler.app.app_context():
         currQuestion = db.session.query(Question).filter(Question.current == True).first()
         if not currQuestion:
@@ -24,6 +28,9 @@ def twilio_sms_poll():
 
         account_sid = os.getenv('TWILIO_SID')
         auth_token = os.getenv('TWILIO_TOKEN')
+        
+        # print(account_sid, auth_token)
+
         twilio_client = Client(account_sid, auth_token)
 
         for sms in twilio_client.messages.list(date_sent_after=datetime.utcnow().replace(tzinfo=pytz.UTC)-timedelta(minutes=20)): # fetch SMS sent in the last 20 minutes

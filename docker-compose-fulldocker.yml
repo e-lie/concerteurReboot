@@ -1,6 +1,20 @@
 version: '3.8'
 
 services:
+  flask_admin:
+    build: ./services/flask_admin
+    command: /usr/bin/python3 manage.py run -h 0.0.0.0
+    volumes:
+      - ./services/flask_admin/:/usr/src/app/
+    ports:
+      - 5000:5000
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - db
+    networks:
+      - concerteur
+  
   db:
     image: postgres:13-alpine
     volumes:
@@ -11,8 +25,6 @@ services:
       - POSTGRES_DB=concerteur
     networks:
       - concerteur
-    ports:
-      - 7654:5432
 
 volumes:
   postgres_data:

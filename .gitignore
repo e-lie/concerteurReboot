@@ -4,6 +4,8 @@ __pycache
 .env.dev
 .env.prod
 .env.prod.db
+.env.fulldocker.prod
+.env.fulldocker.dev
 .vscode
 .idea
 
