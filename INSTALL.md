@@ -9,6 +9,8 @@
 - `pip3 install docker-compose && echo 'export PATH="$PATH:/home/pi/.local/bin"' | tee -a ~/.bashrc`
 - `git clone github.com/ .... wiringPi && cd wiringPi && ./build`
 
+- `sudo apt install python3-gst-1.0 # necessary for playsound library`
+
 - `git clone https://github.com/e-lie/concerteurReboot.git`
 - `cd concerteurReboot`
 - `docker-compose up -d`
