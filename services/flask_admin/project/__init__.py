@@ -23,7 +23,7 @@ def create_app():
     db.init_app(app)
     bootstrap.init_app(app)
 
-    app.gpio_button = Button(2)
+    app.gpio_button = "GPIO Button!" #Button(2)
 
     scheduler.init_app(app)
     from .main import twilio_sms_poll_job
