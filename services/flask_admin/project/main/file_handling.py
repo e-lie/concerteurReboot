@@ -1,12 +1,16 @@
 import os
 import shutil
 
+from pydub import AudioSegment
+
+
 
 def write_mp3_sound(entry, mp3_sound, current_app): # For question or message
     if not os.path.exists(current_app.config['MP3_FOLDER']): # ensure question archive directory exists
         os.makedirs(current_app.config['MP3_FOLDER'])
     with open(f"{current_app.config['MP3_FOLDER']}/{entry.base_filename}.mp3", 'wb+') as mp3:
         mp3.write(mp3_sound)
+    AudioSegment.from_mp3(f"{current_app.config['MP3_FOLDER']}/{entry.base_filename}.mp3").export(f"{current_app.config['MP3_FOLDER']}/{entry.base_filename}.wav", format="wav")
 
 
 def create_question_archive(question, mp3_sound, current_app):
