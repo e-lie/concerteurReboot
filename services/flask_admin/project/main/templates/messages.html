@@ -1,7 +1,6 @@
-{% extends "bootstrap/base.html" %}
+{% extends "./mabase.html" %}
 
 {% block title %}Concerteur - Messages{% endblock %}
-
 
 {% block navbar %}
     {% include 'navbar.html' %}
@@ -9,51 +8,53 @@
 
 
 {% block content %}
-<div class="container">
-<div class="page-header">
-<h1>Messages</h1>
-<a href="{{ url_for('.activate_question') }}">activer le mode "jouer la question"</a>
-</br>
-<a href="{{ url_for('.deactivate_question') }}">désactiver le mode "jouer la question"</a>
-</br>
-{% for question in questions %}
-<div class="row">
-	<div class="well">
-		<h2>Question {{question.id}} - {{ question.title }}</h2>
-		{% if question.archive_name %}
-		<a href="{{ url_for('static', filename=current_app.config['MP3_FOLDER_NAME']+'/'+question.base_filename+'.mp3') }}">audio</a>
+
+
+<div class="b-example-divider"></div>
+
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Liste des questions avec leurs messages associés</h2>
+
+	{% for question in questions %}
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h3 class="fw-bold">Question {{question.id}} : {{ question.title }} </br> {% if question.current %}<span> (question active)</span>{% endif %}
+		{% if not question.current %}
+		<a class="btn btn-tertiary btn-lg" href="{{ url_for('.change_question', message_num=question.id ) }}">activer la question</a>
+		{% endif %}</h3>
+        <p class="text-body-secondary">{{question.text}}</p>
+		{% if question.base_filename %}
+		<a
+		   href="{{ url_for('static', filename=current_app.config['MP3_FOLDER_NAME']+'/'+question.base_filename+'.mp3') }}"
+		   class="btn btn-secondary btn-lg"
+		>
+		audio
+		</a>
 		{% endif %}
 		{% if question.base_filename %}
-		<p><a href="{{ url_for('static', filename=current_app.config['ARCHIVE_FOLDER_NAME']+'/'+question.base_filename+'.zip') }}">Télécharger l'archive</a></p>
+		<a class="btn btn-primary btn-lg" href="{{ url_for('static', filename=current_app.config['ARCHIVE_FOLDER_NAME']+'/'+question.base_filename+'.zip') }}">Télécharger l'archive</a>
 		{% endif %}
-		{% if question.current %}
-		<p>Question active</p>
-		{% else %}
-		<p><a href="{{ url_for('.change_question', message_num=question.id ) }}">activer la question</a></p>
-		{% endif %}
-		<p>
-			{{question.text}}
-		</p>
-	</div>
-    {% for message in question.messages | reverse if message.trashed == False %}
-	<div class="col-md-6 panel panel-default">
-        <div class="panel-heading">
-              <h3 class="panel-title">Message numéro {{ message.id }}</h3>
-            </div>
-            <div class="panel-body">
-	<p>{{message.text }}</p>
-	<p>
-	{% if message.base_filename %}
-	<a href="{{ url_for('static', filename=current_app.config['MP3_FOLDER_NAME']+'/'+message.base_filename+'.mp3') }}">audio</a>
-	{% endif %}
-       	- <a href="{{ url_for('.trash_message', message_num=message.id) }}">poubelle !</a></p>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+		{% for message in question.messages | reverse if message.trashed == False %}
+			<div class="col d-flex flex-column gap-2">
+				<h4 class="fw-semibold mb-0">Message {{message.id}}</h4>
+				<p class="text-body-secondary">{{message.text}}</p>
+			</div>
+			{% if message.base_filename %}
+			<a class="btn btn-primary btn-lg" href="{{ url_for('static', filename=current_app.config['MP3_FOLDER_NAME']+'/'+message.base_filename+'.mp3') }}">audio</a>
+			{% endif %}
+			<a class="btn btn-secondary btn-lg" href="{{ url_for('.trash_message', message_num=message.id) }}">poubelle !</a>
         </div>
-	</div>
-    {% endfor %}
-</div>
-{% endfor %}
-</div>
-</div>
+		{% endfor %}
+      </div>
+	  {% endfor %}
+    </div>
+  </div>
+
+
 {% endblock %}
 
 

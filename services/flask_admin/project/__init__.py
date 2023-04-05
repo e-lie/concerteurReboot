@@ -23,6 +23,8 @@ def create_app():
     db.init_app(app)
     bootstrap.init_app(app)
 
+    app.play_triggered = False
+
     app.gpio_button = Button(17)
 
     scheduler.init_app(app)
