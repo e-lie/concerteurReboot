@@ -12,4 +12,6 @@ twilio
 pydub
 playsound
 gpiozero
+docker-compose
+pygame
 
