@@ -73,5 +73,11 @@ def gpio_player():
             if scheduler.app.config['gpio_button'].is_pressed:
                 scheduler.app.config['play_triggered'] = True
                 print("buttttoooonn")
-                play_sound_scenario(current_app=scheduler.app, playing_question=True)
+                play_sound_scenario(
+                    current_app=scheduler.app,
+                    message_amount=scheduler.app.config['num_messages_to_play'],
+                    play_interval=scheduler.app.config['play_interval'],
+                    playing_random_message=scheduler.app.config['random_play'],
+                    playing_question=scheduler.app.config['play_question'],
+                )
                 scheduler.app.config['play_triggered'] = False
