@@ -74,3 +74,18 @@ class Message(db.Model):
 
     def __repr__(self):
         return '<Message {}: {}>'.format(self.id, self.text)
+
+
+class Scenario(db.Model):
+    __tablename__ = 'scenarios'
+
+    id = db.Column(db.Integer, primary_key=True)
+    num_message_to_play = db.Column(db.Integer)
+    random_play = db.Column(db.Boolean)
+    play_question = db.Column(db.Boolean)
+
+    def __init__(self, num_message_to_play=5, random_play=True, play_question=False):
+        self.num_message_to_play = num_message_to_play
+        self.random_play = random_play
+        self.play_question = play_question
+

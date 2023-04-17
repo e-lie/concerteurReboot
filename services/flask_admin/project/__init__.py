@@ -23,9 +23,14 @@ def create_app():
     db.init_app(app)
     bootstrap.init_app(app)
 
-    app.play_triggered = False
+    app.config['play_triggered'] = False
 
-    app.gpio_button = Button(17)
+    app.config['gpio_button'] = False
+
+    try:
+        app.gpio_button = Button(17)
+    except:
+        print("Problem init GPIO raspi")
 
     scheduler.init_app(app)
     from .main import twilio_sms_poll_job

@@ -11,6 +11,7 @@ class Config(object):
     MEDIA_FOLDER = f"{os.getenv('APP_FOLDER')}/project/media"
     MP3_FOLDER_NAME = 'mp3'
     MP3_FOLDER = f'{STATIC_FOLDER}/{MP3_FOLDER_NAME}'
+    VIRGULES_FOLDER = f'{STATIC_FOLDER}/virgules_sonores'
     ARCHIVE_FOLDER_NAME = 'question_archives'
     ARCHIVE_FOLDER = f'{STATIC_FOLDER}/{ARCHIVE_FOLDER_NAME}'
     MESSAGES_ARCHIVE_FILENAME = 'messages.txt'
@@ -27,6 +28,11 @@ class Config(object):
     CLIENT_STACK = []
     CLIENT_NUMBER = 1
     QUESTION_ACTIVE = 1
+
+    num_message_to_play = 5
+    random_play = True
+    play_question = False
+    play_interval = 0.2
 
     # # Flask APScheduler
     # JOBS = [

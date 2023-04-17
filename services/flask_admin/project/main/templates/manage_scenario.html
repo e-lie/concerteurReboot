@@ -1,0 +1,80 @@
+{% extends "./mabase.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+
+{% block title %}Concerteur - Gérer le scénario d'écoute{% endblock %}
+
+
+{% block navbar %}
+  {% include 'navbar.html' %}
+{% endblock %}
+
+
+{% block content %}
+<main>
+  <div class="container px-4 py-5">
+  <h2 class="pb-2 ">Paramétrer le scénario d'écoute</h2>
+  <form action="/scenario" method="POST" class="form">
+      {{ form.csrf_token }}
+      <div class="row">
+        <div class="col-lg-2">
+          <div class="mb-3">
+            {{ form.num_messages.label(class="form-label") }}
+            {{ form.num_messages(class="form-control") }}
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="mb-3">
+            {{ form.play_interval.label(class="form-label") }}
+            {{ form.play_interval(class="form-control") }}
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="mb-3">
+            {{ form.play_question.label }}
+            {% for subfield in form.play_question %}
+                <div class="form-check">
+                    {{ subfield(class="form-check-input") }}
+                    {{ subfield.label(class="form-check-label") }}
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div class="mb-3">
+            {{ form.random_play.label }}
+            {% for subfield in form.random_play %}
+                <div class="form-check">
+                    {{ subfield(class="form-check-input") }}
+                    {{ subfield.label(class="form-check-label") }}
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="mb-3">
+            {{ form.virgule1_filename.label(class="form-label") }}
+            {{ form.virgule1_filename(class="form-control") }}
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="mb-3">
+            {{ form.virgule2_filename.label(class="form-label") }}
+            {{ form.virgule2_filename(class="form-control") }}
+          </div>
+        </div>
+      </div>
+      {{ form.submit(class="btn btn-primary") }}
+  </form>
+</br>
+  <h2>Tester le scénario</h2>
+  <a class="btn btn-danger btn-sm" href="{{ url_for('.play_messages') }}">Jouer les messages</a>
+</div>
+
+
+</main>
+{% endblock %}
+
+
