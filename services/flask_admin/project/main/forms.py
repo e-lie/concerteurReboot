@@ -14,7 +14,7 @@ class AddMessageForm(FlaskForm):
 
 class ChangeScenarioForm(FlaskForm):
     num_messages = IntegerField('Nombre de messages à jouer', default=5, validators=[DataRequired()])
-    play_interval = FloatField('Interval de temps entre chanque message', validators=[DataRequired()], default=0.2)
+    play_interval = IntegerField('Interval de temps entre chanque message (ms)', validators=[DataRequired()], default=200)
     play_question = RadioField('Lire la question au début', choices=[('oui', 'Oui'), ('non', 'Non')], default='non', validators=[DataRequired()])
     random_play = RadioField('Lecture aléatoire', choices=[('oui', 'Oui'), ('non', 'Non')], default='oui', validators=[DataRequired()])
     virgule1_filename = StringField('Nom de fichier de virgule sonore initial (avec .wav extension)', default='virgule1.wav')

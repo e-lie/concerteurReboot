@@ -9,7 +9,7 @@ from flask_login import LoginManager
 from flask_bootstrap import Bootstrap
 from flask_apscheduler import APScheduler
 
-from gpiozero import Button
+# from gpiozero import Button
 
 db = SQLAlchemy()
 bootstrap = Bootstrap()
@@ -25,12 +25,12 @@ def create_app():
 
     app.config['play_triggered'] = False
 
-    app.config['gpio_button'] = False
+    # app.config['gpio_button'] = False
 
-    try:
-        app.gpio_button = Button(17)
-    except:
-        print("Problem init GPIO raspi")
+    # try:
+    #     app.gpio_button = Button(17)
+    # except:
+    #     print("Problem init GPIO raspi")
 
     scheduler.init_app(app)
     from .main import twilio_sms_poll_job

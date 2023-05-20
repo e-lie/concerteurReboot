@@ -83,9 +83,23 @@ class Scenario(db.Model):
     num_message_to_play = db.Column(db.Integer)
     random_play = db.Column(db.Boolean)
     play_question = db.Column(db.Boolean)
+    play_interval = db.Column(db.Integer)
+    virgule1_filename = db.Column(db.String(256), default="virgule1.wav")
+    virgule2_filename = db.Column(db.String(256), default="virgule2.wav")
 
-    def __init__(self, num_message_to_play=5, random_play=True, play_question=False):
+    def __init__(
+        self,
+        num_message_to_play=5,
+        random_play=True,
+        play_question=False,
+        play_interval=2000,
+        virgule1_filename="",
+        virgule2_filename="",
+    ):
         self.num_message_to_play = num_message_to_play
         self.random_play = random_play
         self.play_question = play_question
+        self.play_interval = play_interval
+        self.virgule1_filename = virgule1_filename
+        self.virgule2_filename = virgule2_filename
 

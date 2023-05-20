@@ -8,7 +8,7 @@ from flask_login import login_required
 from pydub import AudioSegment
 
 from .. import db
-from ..models import Question, Contributor, Message
+from ..models import Question, Contributor, Message, Scenario
 from .forms import AddQuestionForm, AddMessageForm, ChangeScenarioForm
 from .tts import amazon_polly_tts
 from .file_handling import create_question_archive, write_mp3_sound, add_message_to_question_archive
@@ -77,8 +77,19 @@ def trash():
 @login_required
 def scenario():
     # scenario = None
+    # try:
+    scenario = db.session.query(Scenario).order_by(Scenario.id.desc()).first()
+
+    if scenario:
+        current_app.config['num_messages_to_play'] = scenario.num_message_to_play
+        current_app.config['play_interval'] = scenario.play_interval
+        current_app.config['random_play'] = scenario.random_play
+        current_app.config['play_question'] = scenario.play_question
+        current_app.config['virgule1_filename'] = scenario.virgule1_filename
+        current_app.config['virgule2_filename'] = scenario.virgule2_filename
+
+    # pprint(current_app.config)
     try:
-        pprint(current_app.config)
         form = ChangeScenarioForm(
             num_messages=current_app.config['num_messages_to_play'],
             play_interval=current_app.config['play_interval'],
@@ -89,7 +100,7 @@ def scenario():
         )
     except:
         form = ChangeScenarioForm()
-    if not form.validate_on_submit(): # the form is empty or not correct redisplay the form
+    if not form.validate_on_submit(): # if the form is empty or not correct =>  redisplay the form
         return render_template('manage_scenario.html', form=form)
 
     current_app.config['num_messages_to_play'] = form.num_messages.data
@@ -98,12 +109,19 @@ def scenario():
     current_app.config['play_question'] = True if form.play_question.data == 'oui' else False
     current_app.config['virgule1_filename'] = form.virgule1_filename.data
     current_app.config['virgule2_filename'] = form.virgule2_filename.data
-    pprint(current_app.config)
+    # pprint(current_app.config)
 
-    # scenario = Scenario(num_message_to_play=form.num_messages.data, random_play=form.random_play.data, play_question=form.play_question.data)
+    scenario = Scenario(
+        num_message_to_play=current_app.config['num_messages_to_play'],
+        random_play=current_app.config['random_play'],
+        play_question=current_app.config['play_question'],
+        play_interval=current_app.config['play_interval'],
+        virgule1_filename=current_app.config['virgule1_filename'],
+        virgule2_filename=current_app.config['virgule2_filename'],
+    )
 
-    # db.session.add(scenario)
-    # db.session.commit() # Commit question in DB to get and primary key id (used in question base_filename)
+    db.session.add(scenario)
+    db.session.commit()
 
     return redirect(url_for('.scenario'))
 

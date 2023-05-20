@@ -16,4 +16,4 @@ docker-compose up -d
 # python3 ./services/flask_admin/manage.py create_db
 # echo db created
 
-python3 ./services/flask_admin/manage.py run -h 0.0.0.0
+python3 ./services/flask_admin/manage.py run -h 0.0.0.0 -p 80

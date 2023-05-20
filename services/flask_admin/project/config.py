@@ -32,7 +32,7 @@ class Config(object):
     num_message_to_play = 5
     random_play = True
     play_question = False
-    play_interval = 0.2
+    play_interval = 200
 
     # # Flask APScheduler
     # JOBS = [
